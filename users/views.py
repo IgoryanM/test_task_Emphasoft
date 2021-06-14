@@ -1,4 +1,3 @@
-from rest_framework import mixins, viewsets
 from rest_framework.renderers import JSONRenderer, BrowsableAPIRenderer
 from rest_framework.viewsets import ModelViewSet
 
