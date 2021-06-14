@@ -139,6 +139,9 @@ SWAGGER_SETTINGS = {
     'SECURITY_DEFINITIONS': {
         'Token': {
             'type': 'apiKey',
+            'description': 'User logins with /api-token-auth/ endpoint and obtains a token (string).\n'
+                           'NOTE: you should put Token word in front of the token in order for the auth to work.\n'
+                           'INPUT EXAMPLE: Token: 958e8ddf33cc24e6108f996aa964dda790ba01c2',
             'name': 'Authorization',
             'in': 'header',
         },
