@@ -1,8 +1,9 @@
 from mixer.backend.django import mixer
+
 from rest_framework import status
 from rest_framework.test import APITestCase
 
-from .models import User
+from users.models import User
 
 
 class TestUserModelViewSet(APITestCase):
